@@ -2,8 +2,6 @@
 /*-------------------------------------------------
 BASIC SETUP
 -------------------------------------------------*/
-
-
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +15,6 @@ html {
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
-
 }
 
 /*-------------------------------------------------
@@ -38,8 +35,6 @@ section {
   padding: 1%;
 
 }
-
-
 
 /*------- HEADINGS -------*/
 
@@ -70,8 +65,6 @@ h3 {
   font-size: 110%;
   margin-bottom: 15px;
   letter-spacing: 1px;
-
-
 }
 
 h2:after {
@@ -104,9 +97,7 @@ h2:after {
   color: #e67e22;
   margin-bottom: 10px;
   text-align: center;
-
 }
-
 
 /*------- BUTTONS -------*/
 
@@ -168,7 +159,6 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .logo {
@@ -187,7 +177,6 @@ header {
 .main-nav li {
   display: inline-block;
   margin-left: 40px;
-
 }
 
 .main-nav li a:link,
@@ -204,8 +193,7 @@ header {
 .main-nav li a:active,
  .main-nav li a:hover {
   border-bottom: 2px solid #e67e22;
-
-  }
+}
 
 /*-------------------------------------------------
 FEATURES
@@ -251,4 +239,55 @@ MEALS
   opacity: 1;
   transform: scale(1.03);
 
+}
+
+/*-------------------------------------------------
+HOW IT WORKS
+-------------------------------------------------*/
+
+.steps-box {
+  margin-top: 30px;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+
+}
+
+.app-screen {
+  width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
+}
+
+.works-step div {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
